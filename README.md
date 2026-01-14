@@ -1,9 +1,30 @@
-# BAN VPN
+# Чёрный список пользователей VPN
 
-Проект создан для пользователей [бота Bedolaga](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot).
-Здесь указан полный список ID всех нежелательных пользователей для вашего VPN. Вы можете добавить их вручную в своего бота. Если у Вас Bedolaga, вставьте это в .env:
+Данный репозиторий (blacklist.txt) содержит в себе информацию о нежелательных пользователей в Telegram для VPN-сервиса из-за мошенничества, DDoS, спама, абуза трафика, шеринга подписок и т.п.
 
-```BLACKLIST_CHECK_ENABLED=true 
-BLACKLIST_GITHUB_URL=https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.txt 
-BLACKLIST_UPDATE_INTERVAL_HOURS=1 
+**Вы можете легко прикрутить этот сервис к своему боту**: файл blacklist.txt содержит в себе список Telegram ID (где каждый с новой строки) и причину блокировки после # (которую можно показывать пользователям). Для получения списка пользователей можно использовать встроенную в GitHub систему получения данных файла (по этой ссылке):
+https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.txt
+
+Для получения актуального списка рекомендуется обновлять чёрный список раз в 60 минут
+
+# Интеграции
+
+Наш проект имеет несколько интеграции с различными популярными ботами в Telegram, где вы можете легко настроить чёрный список, не написав ни единой строчки кода
+
+## Бот Bedolaga
+
+Мы имеем интеграцию с [ботом Bedolaga](https://github.com/BEDOLAGA-DEV/remnawave-bedolaga-telegram-bot).
+Чтобы добавить чёрный список и настроить автообновление, вам нужно отредактировать файл .env на сервере в корне бота Bedolaga. Для этого вам необходимо:
+1. Подключить к серверу по SSH (или аналоговые программы, например, MobaXTerm или PuTTy)
+2. Через команду ```ls -a``` узнать директорию, где находится бот (обычно в названии папки есть слово bedolaga или bot)
+3. Зайти в папку, используя команду ```cd <название_директории>``` (например, ```cd bedolaga_bot```)
+4. Отредактировать файл через встроенный менеджер в вашей программе ИЛИ через команду ```nano .env```
+5. Найдите следующие строки (если их нет, вставьте вручную) и выставите эти значения:
+
+```BLACKLIST_CHECK_ENABLED=true
+BLACKLIST_GITHUB_URL=https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.txt
+BLACKLIST_UPDATE_INTERVAL_HOURS=1
 BLACKLIST_IGNORE_ADMINS=true
+```
+
+Готово!
