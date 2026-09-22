@@ -57,8 +57,10 @@ BLACKLIST_IGNORE_ADMINS=true
 
 <details>
 <summary><b>Самописный бот</b></summary>
- **Вы можете легко прикрутить этот сервис к своему боту**: файл blacklist.txt содержит в себе список Telegram ID (где каждый с новой строки) и причину блокировки после # (которую можно показывать пользователям). Для получения списка пользователей можно использовать встроенную в GitHub систему получения данных файла (по этой ссылке):
-https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.txt
+ **Вы можете легко прикрутить этот сервис к своему боту**: файл blacklist.txt содержит в себе список Telegram ID (где каждый с новой строки) и причину блокировки после # (которую можно показывать пользователям). Для получения списка пользователей можно использовать встроенную в GitHub систему получения данных файла:
+
+  **В TXT формате**: https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.txt
+  **В JSON формате**: https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.json
 
 Для получения актуального списка рекомендуется обновлять чёрный список раз в 60 минут
 </details>
@@ -72,3 +74,16 @@ https://raw.githubusercontent.com/Blin4ickUSE/ban-vpn/refs/heads/main/blacklist.
    <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Blin4ickUSE/ban-vpn&type=date&legend=top-left" />
  </picture>
 </a>
+
+## Задонатить
+
+> [!CAUTION]
+> **Помните**, что список всегда будет бесплатным. А донат — это просто форма поддержки, кому не всё равно на время, потраченное на сборку списка.
+
+**TON**: UQBFtvMnOlm_6XwChmW2MezW0jWC2JYKothao5AQ25LJykJD
+**TRC-20**: TKM2gWYxRa4fdiCYg3DZeaQdnpwFyK8EkZ
+**Ethirium**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
+**BTC**: bc1qcv6dsaedzzdc97yeks40ketzjt5kn90acstg0x
+**BEP-20**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
+
+
