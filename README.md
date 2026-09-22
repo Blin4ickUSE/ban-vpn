@@ -80,10 +80,10 @@ BLACKLIST_IGNORE_ADMINS=true
 > [!CAUTION]
 > **Помните**, что список всегда будет бесплатным. А донат — это просто форма поддержки, кому не всё равно на время, потраченное на сборку списка.
 
-**TON**: UQBFtvMnOlm_6XwChmW2MezW0jWC2JYKothao5AQ25LJykJD
-**TRC-20**: TKM2gWYxRa4fdiCYg3DZeaQdnpwFyK8EkZ
-**Ethirium**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
-**BTC**: bc1qcv6dsaedzzdc97yeks40ketzjt5kn90acstg0x
-**BEP-20**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
+- **TON**: UQBFtvMnOlm_6XwChmW2MezW0jWC2JYKothao5AQ25LJykJD
+- **TRC-20**: TKM2gWYxRa4fdiCYg3DZeaQdnpwFyK8EkZ
+- **Ethirium**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
+- **BTC**: bc1qcv6dsaedzzdc97yeks40ketzjt5kn90acstg0x
+- **BEP-20**: 0x6c6e780ef6d7660d562981F178C95c24Ff6bC9eb
 
 
